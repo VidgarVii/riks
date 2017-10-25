@@ -8,19 +8,25 @@ h2 {
 }
 body {
     background-image: url(img/zerno_01.png);
+    
 }
 header{
     background-image:url(img/bgheader.jpg);
        height: 100vh;
+      vertical-align: middle;
+    position: relative;
+        
     
 }
 .logo{
  font-family: 'Ubuntu', sans-serif;
     
 } 
-.starter-template {
-            padding: 15rem 5rem;
-            text-align: center;
+.number {
+    position: absolute;
+    left: 10px;
+            
+           
         }
 .hblock{
     border: 1px solid grey;
@@ -29,13 +35,16 @@ header{
     background-color: rgba(0, 0, 0, 0.3);
     padding: 3em;
     color: aliceblue;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 800px;
-   
+    text-align: center;
+    position: relative;
+    margin:0 auto;
+display: inline-block;
+  
      
 }
 .one{
+    position: relative;
     padding: 2em;
     font-size: 16px;
     
