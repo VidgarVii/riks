@@ -75,3 +75,8 @@ footer{
 .br {
     border-right: 1px solid grey;
 }
+
+.bg {
+    background-image: url(img/bg_out.png);
+    background-repeat: repeat;
+}

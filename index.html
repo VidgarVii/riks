@@ -67,7 +67,7 @@
             <h1 class="logo">РИКС</h1><br>
             <p class="lead"><strong>Региональный оптовый поставщик сельскохозяйственной продукции</strong></p></div>
        
-    </header>
+    </header> <!-- Шапка -->
 <section class="container one">
       <h2 class="text-center">О Компании</h2><hr>
         <div class="container bg-white otstup">
@@ -93,7 +93,7 @@
                 Выбирая нас — вы выбираете надежного партнера на долгосрочную перспективу!</div></div>
    
     </div> 
-</section>
+</section>             <!-- О компании -->
 <section class="container otstup one">
        
         <h2 class="text-center">Наши постоянные партнеры</h2><hr> <br>
@@ -110,28 +110,44 @@
             <div class="col-md">
                 <img class="img-thumbnail" src="img/par/buket.jpeg" alt="logo" width="100px" title="Букет Чувашии"> <br> Букет Чувашии </div>
         </div>
-        </section>
-<section class="container obrotn text-center">
+        </section>      <!-- партнеры -->
+        
+<section class=" obrotn text-center">  
+                      
   <h2 class="">Обратная свзяь</h2><hr><br>
-<form>
-    <div class="form-group">
+    <div class="bg container-fluid p-5 d-flex justify-content-center">
+  
+<form class="alert alert-warning col-md-6" action="https://formspree.io/vidasp@email.ru"
+      method="POST">
+   
+    <div class="form-group col-md-6">
         <label for="name">Введите Ваше Имя</label>
-        <input type="text" name="name" class="form-control">
-    </div>
+        <input type="email" name="name" class="form-control"  placeholder="Enter your name">
+    </div> 
+    <div class="form-group col-md-6">
         <label for="ooo">Название организации</label>
-        <input type="text" name="ooo" class="form-control">
+        <input type="text" name="ooo" class="form-control" placeholder="OOO RIKS">
+    </div>
     <div class="form-group">
-        <label for="mail">Ваш E-mail</label>
-        <input type="text" name="mail" class="form-control">
+        <label for="exampleInputEmail1">Ваш E-mail</label>
+        <input type="email" name="email" id="exampleInputEmail1" class="form-control" placeholder="Enter email" aria-describedby="emailHelp">
+    </div>
+       <div class="form-group">
+        <label for="number">Номер телефона</label>
+        <input type="text" name="number" class="form-control" placeholder=" +7 555 55 55">
     </div>
     <div class="form-group">
         <label for="massage">Введите сообщение</label>
-        <input type="text" name="massage" class="form-control">
+         <textarea class="form-control" id="exampleTextarea" rows="3" name="massage"></textarea>
     </div>
-        <button type="button">Отправить</button>
+        <button type="submit" class="btn btn-success">Отправить</button>
 </form>
-</section>
-<footer class="otstup">
+
+</div>
+</section>        <!-- обратная связь -->
+
+    
+    <footer class="otstup">
      <h2 class="text-center">Контакты</h2><hr>
      <div class="row foot ">
          <div class="col-md-6 text-center text-uppercase logo br"> 
