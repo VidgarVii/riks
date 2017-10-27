@@ -17,13 +17,6 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
-<script type="text/javascript">
-    function valid (form) {
-        var name = form.name.value;
-        alert(name);
-    }
-    </script>
-
 <body>
 <!--
     <nav class="navbar navbar-expand-md navbar-dark" style="background-color: 	#BFA430;">
@@ -122,7 +115,7 @@
   <h2 class="">Обратная свзяь</h2><hr><br>
     <div class="bg container-fluid p-5 d-flex justify-content-center">
   
-<form class="alert alert-warning col-md-6" method="post" action="" name="callme" onsubmit="valid()">
+<form class="alert alert-warning col-md-6" method="get" action="" name="callme" onsubmit="valid()">
    
     <div class="form-group col-md-6">
         <label for="inputName" >Введите Ваше Имя</label>
@@ -187,6 +180,13 @@
             }
 
         }())
+    </script>
+    
+<script type="text/javascript">
+    function valid (form) {
+        var name = form.name.value;
+        alert(name);
+    }
     </script>
 
 </body>
