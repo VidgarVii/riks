@@ -115,7 +115,13 @@
   <h2 class="">Обратная свзяь</h2><hr><br>
     <div class="bg container-fluid p-5 d-flex justify-content-center">
   
-<form class="alert alert-warning col-md-6" method="get" action="" name="callme" onsubmit="valid()">
+<form class="alert alert-warning col-md-6" name="callme">
+   
+   <!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="RIKS">
+		<input type="hidden" name="admin_email" value="vidasp@mail.ru">
+		<input type="hidden" name="form_subject" value="Обратная связь">
+		<!-- END Hidden Required Fields -->
    
     <div class="form-group col-md-6">
         <label for="inputName" >Введите Ваше Имя</label>
@@ -182,12 +188,7 @@
         }())
     </script>
     
-<script type="text/javascript">
-    function valid (form) {
-        var name = form.name.value;
-        alert(name);
-    }
-    </script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
