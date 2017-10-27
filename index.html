@@ -17,7 +17,12 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
-
+<script type="text/javascript">
+    function valid (form) {
+        var name = form.name.value;
+        alert(name);
+    }
+    </script>
 
 <body>
 <!--
@@ -117,33 +122,29 @@
   <h2 class="">Обратная свзяь</h2><hr><br>
     <div class="bg container-fluid p-5 d-flex justify-content-center">
   
-<form class="alert alert-warning col-md-6" action="https://formspree.io/vidasp@mail.ru"
-      method="POST">
+<form class="alert alert-warning col-md-6" method="post" action="" name="callme" onsubmit="valid()">
    
     <div class="form-group col-md-6">
-        <label for="name">Введите Ваше Имя</label>
-        <input type="text" name="name" class="form-control"  placeholder="Enter your name">
+        <label for="inputName" >Введите Ваше Имя</label>
+        <input type="text"  id="inputName" name="name" class="form-control"  placeholder="Enter your name" required>
     </div> 
     <div class="form-group col-md-6">
-        <label for="ooo">Название организации</label>
-        <input type="text" name="ooo" class="form-control" placeholder="OOO RIKS">
+        <label for="inputfirma">Название организации</label>
+        <input type="text" id="inputfirma" name="firma" class="form-control" placeholder="OOO RIKS" required>
     </div>
     <div class="form-group">
-        <label for="exampleInputEmail1">Ваш E-mail</label>
-        <input type="email" name="email" id="exampleInputEmail1" class="form-control" placeholder="Enter email" aria-describedby="emailHelp">
+        <label for="inputEmail1">Ваш E-mail</label>
+        <input type="email" name="email" id="inputEmail1" class="form-control" placeholder="Enter email" aria-describedby="emailHelp">
     </div>
        <div class="form-group">
-        <label for="number">Номер телефона</label>
-        <input type="text" name="number" class="form-control" placeholder=" +7 555 55 55">
+        <label for="inputNumber">Номер телефона</label>
+        <input type="text" id="inputNumber" name="number" class="form-control" placeholder=" +7 555 55 55" required>
     </div>
     <div class="form-group">
-        <label for="massage">Введите сообщение</label>
-         <textarea class="form-control" id="exampleTextarea" rows="3" name="massage"></textarea>
+        <label for="exampleTextarea">Введите сообщение</label>
+         <textarea class="form-control" id="exampleTextarea" rows="3" name="massage" required></textarea>
     </div>
-       <input type="hidden" name="_next" value="https://vidgarvii.github.io/riks/" />
-    <input type="hidden" name="_subject" value="Мы вам ответим!" />   
-       <input type="text" name="_gotcha" style="display:none" />   
-        <button type="submit" class="btn btn-success">Отправить</button>
+         <button type="submit" class="btn btn-success">Отправить</button>
 </form>
 
 </div>
