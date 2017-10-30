@@ -80,3 +80,10 @@ footer{
     background-image: url(img/bg_out.png);
     background-repeat: repeat;
 }
+
+.text {
+ font-size: 16px;
+ font-family: 'Ubuntu', sans-serif;
+ margin: auto;
+    text-align: center;
+}
