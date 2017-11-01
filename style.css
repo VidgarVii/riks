@@ -1,3 +1,4 @@
+
 h1, h3 { 
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
@@ -27,12 +28,16 @@ header{
     font-size: 30px;
     font-weight: 600;
     border-radius: 15px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
     color:#000;
+   
                   }
-
+.callme {
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+    
+}
 .hblock{
     border: 1px solid grey;
     border-radius: 10px;
@@ -43,11 +48,7 @@ header{
     max-width: 800px;
     text-align: center;
     margin: auto;
-    
-
-  
-     
-}
+ }
 .one{
     position: relative;
     padding: 2em;
@@ -80,16 +81,37 @@ footer{
     background-image: url(img/bg_out.png);
     background-repeat: repeat;
 }
+.bg2 {
+    background-image: url(img/bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  
+}
 
 .text {
  font-size: 16px;
  font-family: 'Ubuntu', sans-serif;
- margin: auto;
-    text-align: center;
+ margin: 0 auto;
 }
 
 li {
    
     border-right: 2px solid black;
     border-bottom-right-radius: 35px;
+    border-top-left-radius: 25px;
 }
+
+li:hover {        
+    background: rgba(243, 156, 18, 0.7);  /*подкрашивание при наведении */
+    transition: background-color .3s;
+ }
+.product {
+   
+}
+ blockquote {
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+     font-size: 16px;
+     background-color: rgba(1, 1, 1, 0.1);
+    }

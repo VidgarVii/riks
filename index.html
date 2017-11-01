@@ -18,13 +18,20 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
 <body>
-<header class="d-flex justify-content-center">
-        
-    <div class="number p-1">
+<header class="d-flex flex-column"><br>
+        <div class="container otstup">
+        <div class="row justify-content-end">
+    <div class="number text-center p-3 mr-auto">
          +7(962)321-32-34</div>
          
-     <div class="text">
-         <nav class= "text navbar navbar-expand-md navbar-light col-6" role="navigation">
+    <div class="callme p-3 bg-success text-center">
+         <strong>Обратная связь</strong>
+         </div>
+         </div>        
+    </div>
+      
+       <div class="text">
+         <nav class= "text navbar navbar-expand-md col-6 navbar-light" role="navigation">
          
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -37,19 +44,19 @@
                     <a class="nav-link active" href="#top">О Компании  <span class="sr-only">(current)</span></a>
                 </li>
                 
-                <li class="nav-item">
+               <li class="nav-item">
                     <a class="nav-link active" href="#cont">Контакты </a>
                 </li>
                 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Продукция </a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Зерно</a>
-                        <a class="dropdown-item" href="#">Масло</a>
-                        <a class="dropdown-item" href="#">Другое</a>
+                        <a class="dropdown-item" href="#zerno">Зерно</a>
+                        <a class="dropdown-item" href="#maslo">Масло</a>
+                        <a class="dropdown-item" href="#zerno">Другое</a>
                     </div>
                 </li>
-            </ul>
+              </ul>
             </div>
 </nav>
 
@@ -80,7 +87,7 @@
                   <div class="col-md-8 border">Мы работаем без выходных и перерывов на обед. </div></div><br>
             <div class="row">
                 <div class="col-md-2 text-center"><i class="fa fa-truck" style="font-size: 50px;"></i></div>
-                <div class="col-md-8 border"> Осуществляем доставку автотранспортом продукции по Чувашской республики, Татарстану, Марий Эл, Кировской и Ульяновской области. </div></div>
+                <div class="col-md-8 border"> Осуществляем доставку автотранспортом продукции по Чувашской Республике, Татарстану, Марий Эл, Кировской и Ульяновской области. </div></div>
     <br>
             <div class="row">
                 <div class="col-md-2 text-center"><i class="glyphicon glyphicon-thumbs-up" style="font-size: 50px;"></i></div><div class="col-md-8 border">
@@ -88,8 +95,7 @@
    
     </div> 
 </section>             <!-- О компании -->
-<section class="container otstup one">
-       
+<section class="container otstup one">       
         <h2 class="text-center">Наши постоянные партнеры</h2><hr> <br>
         <div class="row text-center alert alert-warning">
            <div class="col-md">
@@ -105,12 +111,86 @@
                 <img class="img-thumbnail" src="img/par/buket.jpeg" alt="logo" width="100px" title="Букет Чувашии"> <br> Букет Чувашии </div>
         </div>
         </section>      <!-- партнеры -->
-        <a name="cont">
-<section class=" obrotn text-center">  
+    <a name="zerno"></a>
+<section class="product">
+     <h2 class="text-center">Продукция в наличии</h2><hr><br>
+     <div class="container-fluid bg2 p-5">
+      <blockquote class="container"><p>Уважаемые покупатели, наличие товара и цены, уточняйте по телефону +7 (962) 321 32 34 или оставляйте заявку через <a href="#cont">обратную свзяь. </a></p>
+      </blockquote>
+       <div class="container">
+       <h3 class="alert alert-success text-center">Сельхозкультуры</h3>
+        <table class="table table-striped table-warning">
+           <thead>
+               <tr>
+                   <th>Товар</th>
+                   <th>Количество</th>
+                   <th>Место расположения</th>
+               </tr>
+           </thead>
+                   
+           <tbody>
+               <tr>
+                   <th>Пшеница</th>
+                   <td>1000 тонн</td>
+                   <td>Марий Эл</td>
+               </tr>
+               <tr>
+                   <th>Ячмень</th>
+                   <td>1000 тонн</td>
+                   <td>Татарстан</td>
+               </tr>
+               <tr>
+                   <th>Рожь</th>
+                   <td>1000 тонн</td>
+                   <td>Марий Эл</td>
+               </tr>
+            </tbody>
+            
+        </table>
+         </div>
+     <a name="maslo"></a>
+      <div class="container">
+       <h3 class="alert alert-success text-center">Масленичные культуры</h3>
+        <table class="table table-striped table-warning">
+           <thead>
+               <tr>
+                   <th>Товар</th>
+                   <th>Количество</th>
+                   <th>Место расположения</th>
+               </tr>
+           </thead>
+                   
+           <tbody>
+               <tr>
+                   <th>Масло подсолнечное нерафинированное</th>
+                   <td>100 тонн</td>
+                   <td>Чувашия</td>
+               </tr>
+               <tr>
+                   <th>Жмых подсолнечный</th>
+                   <td>н/д</td>
+                   <td>Чувашия</td>
+               </tr>
+              
+            </tbody>
+            
+        </table>
+         </div>
+         <br>
+      <div class="alert alert-danger text-center container">   
+         <strong><i class="fa fa-truck" style="font-size: 40px;"></i> Внимание! Мы осуществляем доставку товара по Чувашской Республике, Татарстану, Марий Эл, Кировской и Ульяновской области.</strong></div>
+     </div>
+</section>    <br>           <!-- товар -->
+    <a name="cont"></a>
+<section class=" obrotn text-center">  <!-- обратная связь -->
                       
   <h2 class="">Обратная свзяь</h2><hr><br>
-    <div class="bg container-fluid p-5 d-flex justify-content-center">
-  
+<div class="bg container-fluid p-5 d-flex justify-content-center flex-wrap">
+ <div>
+      <blockquote>
+      <p>Для  полного ответа советуем заполнить все поля. Наш менеджер свяжется с Вами в кротчайшие сроки. </p>
+  </blockquote> 
+    </div>
 <form class="alert alert-warning col-md-6" name="callme">
    
    <!-- Hidden Required Fields -->
@@ -150,13 +230,13 @@
          <div class="col-md-6 text-center text-uppercase logo br"> 
          <img src="img/logo.png" alt="logo"><br>
          <strong>ООО "Рикс" </strong></div>
-         <div class="col-md-6"><i class="glyphicon glyphicon-earphone"></i>+7 (962) 321-32-34, 
+         <address class="col-md-6"><i class="glyphicon glyphicon-earphone"></i>+7 (962) 321-32-34, 
           +7 (960) 303-34-07 <br>
          <i class="fa fa-envelope-o" aria-hidden="true"></i> oooriks@list.ru <br>
-         <i class="fa fa-map-marker" aria-hidden="true"></i> РТ, г. Казань, ул. Аделя Кутую, д.167, пом. 14. </div>
+         <i class="fa fa-map-marker" aria-hidden="true"></i> РТ, г. Казань, ул. Аделя Кутую, д.167, пом. 14. </address>
          </div>
     
-            </footer></a>
+            </footer>                      <!-- футер -->
 <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -182,7 +262,7 @@
         }())
     </script>
     
-<script src="js/script.js"></script>
+<script src="js/script.js"></script>                                                  <!-- скрипты -->
 
 </body>
 </html>
