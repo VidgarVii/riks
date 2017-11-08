@@ -16,14 +16,15 @@
     <!-- Custom styles for this template -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="animate.css">
     </head>
 <body>
-<header class="d-flex"><br>
+<header class="d-flex parallax-window" data-parallax="scroll" data-image-src="img/bgheader.jpg"><br>
         
-    <div class="number text-center p-3">
+<div class="number text-center p-3 wow bounceInUp">
          +7(962)321-32-34</div>
          
-    <a href="#cont"><div class="callme p-3 btn-warning">
+    <a href="#cont"><div class="callme p-3 btn-warning wow fadeinleft">
          <strong>Обратная связь</strong>
          </div></a>
      
@@ -112,7 +113,7 @@
     <a name="zerno"></a>
 <section class="product">
      <h2 class="text-center">Продукция в наличии</h2><hr><br>
-     <div class="container-fluid bg2 p-5">
+     <div class="container-fluid bg2 p-5 parallax-window" data-parallax="scroll" data-image-src="img/bg2.jpeg">
       <blockquote class="container"><p>Уважаемые покупатели, наличие товара и цены, уточняйте по телефону +7 (962) 321 32 34 или оставляйте заявку через <a href="#cont">обратную свзяь. </a></p>
       </blockquote>
        <div class="container">
@@ -260,7 +261,8 @@
         }())
     </script>
     
-<script src="js/script.js"></script>                                                  <!-- скрипты -->
+<script src="js/script.js"></script>                                       <script src="js/parallax.min.js"></script>
+<script src="js/wow.min.js"></script>                                                   <!-- скрипты -->
 
 </body>
 </html>
