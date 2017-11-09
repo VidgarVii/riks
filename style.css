@@ -103,17 +103,18 @@ footer{
  margin: auto;
 }
 .collapse li {
-   
     border-right: 2px solid black;
     border-bottom-right-radius: 35px;
     border-top-left-radius: 25px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    
 }
-.collapse 
-li:hover {
+.collapse li:hover {
     border-bottom: 3px solid rgba(243, 156, 18, 0.7);
     background: rgba(0, 0, 0, 0.1);  /*подкрашивание при наведении */
-    transition: background-color .3s;
+    transition: .50s;
  }
+
 .product {
    
 }
@@ -160,7 +161,4 @@ ul#navigation a {
 }
 .mPS2id-highlight {
     text-shadow: 2px 2px 10px blue;
-}
-.tor-menu .mPS2id-highlight {
-    display: none;
 }
