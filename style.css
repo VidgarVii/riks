@@ -8,12 +8,11 @@ h2 {
 body {
     background-image: url(img/zerno_01.png);
     
-}
+  }
 header{
     background-image:url(img/bgheader.jpg);
        height: 100vh;
-     
-          }
+               }
 .logo{
  font-family: 'Ubuntu', sans-serif;
     
@@ -27,11 +26,11 @@ header{
     font-weight: 600;
     border-radius: 15px;
     color:#000;
-    position: absolute;
+    position: relative;
     top 20px;
     left: 20px;
-   
-                  }
+    width: 300px;
+}
 .callme {
     font-size: 16px;
     border: 2px solid black;
@@ -126,7 +125,7 @@ footer{
     }
 .pos {
     position: relative;
-    top: 20px;
+    top: -20px;
 }
 .parallax-window {
 	min-height: 400px;
