@@ -18,3 +18,6 @@ $(document).ready(function() {
 	});
 
 }); 
+
+// Плавные скролл
+$("a").mPageScroll2id();

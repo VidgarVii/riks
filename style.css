@@ -158,3 +158,9 @@ ul#navigation a {
     color: black;
     
 }
+.mPS2id-highlight {
+    text-shadow: 2px 2px 10px blue;
+}
+.tor-menu .mPS2id-highlight {
+    display: none;
+}
