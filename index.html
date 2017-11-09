@@ -70,13 +70,13 @@
             <h1 class="logo">РИКС</h1><br>
             <p class="lead"><strong>Региональный оптовый поставщик сельскохозяйственной продукции</strong></p></div>
        </div>
-    </header> <!-- Шапка -->
+</header> <!-- Шапка -->
     
 <section class="container one" id="top">
     <h2 class="text-center">О Компании</h2><hr>
     <nav class="top-menu nav  navbar-nav">
         <ul class="navbar-nav" id="navigation">
-         <li class="nav-item"><a href="#home" title="Home"><span class="glyphicon glyphicon-home"></span></a></li>
+         <li class="nav-item"><a href="javascript://0" onclick="slowScroll ('#home')" title="Home"><span class="glyphicon glyphicon-home"></span></a></li>
          <li class="nav-item"><a href="#top" title="About"><span class="glyphicon glyphicon-signal"></span></a></li>
          <li class="nav-item"><a href="#part" title="Partner"><span class="glyphicon glyphicon-thumbs-up"></span></a></li>
          <li class="nav-item"><a href="#zerno" title="Tovar"><span class="glyphicon glyphicon-certificate"></span></a></li>
@@ -277,6 +277,15 @@
 <script src="js/parallax.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script> new WOW().init();   </script>
+<script>
+  function slowScroll (id) {
+ var offset = 0;
+ $('html, body').animate ({
+  scrollTop: $(id).offset ().Top - offset
+ }, 500);
+ return false;
+}
+    </script>
 
     <!-- скрипты -->
 
