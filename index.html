@@ -19,9 +19,17 @@
     <link rel="stylesheet" href="animate.css">
     </head>
 <body>
-
-<header class="d-flex parallax-window" id="home" data-parallax="scroll" data-image-src="img/bgheader.jpg"><br>
-        
+<script>
+    function slowScrol (id) {
+    var offset = 0;
+    $('html, body').animate ({
+      scrollTop: $(id).offset ().top - offset
+    }, 500);
+    return false;
+  }
+    </script>
+<header class="d-flex parallax-window" data-parallax="scroll" data-image-src="img/bgheader.jpg"><br>
+ <div id="home"></div>       
 <div class="number text-center p-3 wow bounceInRight">
          +7(962)321-32-34
         </div>
@@ -76,7 +84,7 @@
     <h2 class="text-center">О Компании</h2><hr>
     <nav class="top-menu nav  navbar-nav">
         <ul class="navbar-nav" id="navigation">
-         <li class="nav-item"><a href="javascript://0" onclick="slowScroll ('#home')" title="Home"><span class="glyphicon glyphicon-home"></span></a></li>
+         <li><a href="#" onclick="slowScrol ('#home')" title="Home"><span class="glyphicon glyphicon-home"></span></a></li>
          <li class="nav-item"><a href="#top" title="About"><span class="glyphicon glyphicon-signal"></span></a></li>
          <li class="nav-item"><a href="#part" title="Partner"><span class="glyphicon glyphicon-thumbs-up"></span></a></li>
          <li class="nav-item"><a href="#zerno" title="Tovar"><span class="glyphicon glyphicon-certificate"></span></a></li>
@@ -251,6 +259,7 @@
 <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
@@ -272,21 +281,11 @@
 
         }())
     </script>
-    
-<script src="js/script.js"></script> 
+
+<script src="js/script.js"></script>
 <script src="js/parallax.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script> new WOW().init();   </script>
-<script>
-  function slowScroll (id) {
- var offset = 0;
- $('html, body').animate ({
-  scrollTop: $(id).offset ().Top - offset
- }, 500);
- return false;
-}
-    </script>
-
     <!-- скрипты -->
 
 </body>
