@@ -166,7 +166,8 @@ ul#navigation li {
 }
 .top-menu a:hover, 
 .top-menu .active{
-  text-shadow: 2px 2px 10px blue;  
+  text-shadow: 2px 2px 10px blue; 
+    
 }
 ul#navigation a {
    cursor: alias;
