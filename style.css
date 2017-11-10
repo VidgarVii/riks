@@ -26,12 +26,21 @@ header{
     font-weight: 600;
     border-radius: 15px;
     color:#000;
-    position: absolute;
+    position: relative;
     top 20px;
-    left: 20px;
     width: 300px;
     margin-top: 20px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px black; 
 }
+.number:hover {
+    transform: scale(2.01);
+    transition: 50s;
+}
+.fa-phone {
+    color: #FFAB00;
+    text-shadow: 2px 2px 3px blue;
+    }
 .callme {
     font-size: 16px;
     border: 2px solid black;
@@ -102,6 +111,9 @@ footer{
  font-family: 'Ubuntu', sans-serif;
  margin: auto;
 }
+.navbar {
+    margin: 0 auto;
+}
 .collapse li {
     border-right: 2px solid black;
     border-bottom-right-radius: 35px;
@@ -126,6 +138,8 @@ footer{
     }
 .pos {
     position: relative;
+    top: -20px;
+    padding-bottom: 20px;
 
 }
 .parallax-window {
