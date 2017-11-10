@@ -126,7 +126,12 @@ footer{
     background: rgba(0, 0, 0, 0.1);  /*подкрашивание при наведении */
     transition: .50s;
  }
-
+.col-md-8 {
+    background-color:  rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    border-radius: 10px;
+}
 .product {
    
 }
