@@ -76,11 +76,11 @@
     <!-- МЕНЮ -->
        <nav class="top-menu nav  navbar-nav">
         <ul class="navbar-nav" id="navigation">
-         <li><a href="#home" title="Вверх"><span class="glyphicon glyphicon-home"></span></a></li>
-         <li class="nav-item"><a href="#top" title="О Компании"><span class="glyphicon glyphicon-signal"></span></a></li>
-         <li class="nav-item"><a href="#part" title="Наши партнеры"><span class="glyphicon glyphicon-thumbs-up"></span></a></li>
-         <li class="nav-item"><a href="#zerno" title="Продукция"><span class="glyphicon glyphicon-certificate"></span></a></li>
-         <li class="nav-item"><a href="#cont" title="Контакты"><span class="glyphicon glyphicon-envelope"></span></a></li>
+         <li><a href="#home" data-toggle="tooltip" title="<b>Вверх</b>"><span class="glyphicon glyphicon-home"></span></a></li>
+         <li class="nav-item"><a href="#top" rel="popover"  data-toggle="tooltip" title="<b>О Компании</b>"><span class="glyphicon glyphicon-signal"></span></a></li>
+         <li class="nav-item"><a href="#part" data-toggle="tooltip" title="<b>Наши партнеры</b>"><span class="glyphicon glyphicon-thumbs-up"></span></a></li>
+         <li class="nav-item"><a href="#zerno" data-toggle="tooltip" title="<b>Продукция</b>"><span class="glyphicon glyphicon-certificate"></span></a></li>
+         <li class="nav-item"><a href="#cont" data-toggle="tooltip" title="<b>Контакты</b>"><span class="glyphicon glyphicon-envelope"></span></a></li>
 </ul>
     </nav>
        
@@ -282,6 +282,12 @@
 <script src="js/parallax.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script> new WOW().init();   </script>
+<script src="js/tooltip.js"></script>
+<script type="text/javascript">
+  $('[data-toggle="tooltip"]').tooltip({
+    placement : 'right'
+    });
+</script>
     <!-- скрипты -->
 
 </body>

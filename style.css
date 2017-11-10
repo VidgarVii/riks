@@ -182,3 +182,6 @@ ul#navigation a {
 .mPS2id-highlight {
     text-shadow: 2px 2px 10px blue;
 }
+.tooltip {
+    color: aqua;
+}
